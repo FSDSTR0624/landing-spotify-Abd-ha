@@ -26,11 +26,17 @@ img {
     text-align: center;
 }
 
+img {
+    width: 100px;
+    height: 30px;
+}
+
 nav ul {
     color: #fff;
     list-style: none;
     display: flex;
     justify-content: space-between;
+
     text-align: center;
 }
 
@@ -131,9 +137,9 @@ footer ul {
     display: flex;
     list-style: none;
     padding: 0;
-    justify-content: space-around; /* Adjusts spacing between items */
+    justify-content: space-around; 
 }
 
 footer ul li {
-    margin: 0 10px; /* Adjusts spacing around each list item */
+    margin: 0 10px; 
 }
