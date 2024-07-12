@@ -1,14 +1,19 @@
 
 body {
-    font-family:Raleway;
-    background-color: #000000;
-    color: #fff;
-    text-align: center;
+font-family: Raleway, sans-serif;
+color: #fff;
+background-color: #000000;
+text-align: center;
+}
+
+div.mainhead {
+display: block;
+text-align: center;
 }
 
 header {
     display: flex;
-    background-color: #000;
+    background-color: #000000;
     color: #fff;
     justify-content: space-between;
     text-align: center;
@@ -17,8 +22,8 @@ header {
 img {
     width: 100px;
     height: 30px;
-    text-align: center;
 }
+
 
 .container {
     color: #fff;
@@ -55,6 +60,7 @@ nav a:hover {
 .btn {
     display: inline-block;
     padding: 10px 20px;
+    margin: 20px 0px;
     font-size: 16px;
     cursor: pointer;
     text-align: center;
@@ -70,7 +76,7 @@ nav a:hover {
 
 .btn1 {
     display: inline-block;
-    margin: 0px 20px 0px;
+    margin: 20px 0px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -124,8 +130,12 @@ div.box, div.box2, div.box3, div.box4 {
     border-radius: 20px;
     background-color: rgb(56, 56, 56);
     color: #fff;
+    width: 300px;
+    height: 300px;
     text-align: center;
 }
+
+
 
 footer ul {
     display: flex;
@@ -135,5 +145,5 @@ footer ul {
 }
 
 footer ul li {
-    margin: 0 10px; /* Adjusts spacing around each list item */
+    margin: 0 10px; 
 }
